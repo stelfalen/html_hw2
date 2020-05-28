@@ -1,0 +1,148 @@
+@font-face{
+	font-family:'youth-touch';
+	src:url(/other/YouthTouchDemoRegular-4VwY.ttf);
+}
+html{
+	width: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+h1{
+	font-family: youth-touch;
+    color: #ffffff;
+}
+p,h2,h3,h4,h4,h6,div,span {
+	text-align: center;
+}
+.navbar-brand img {
+	height: 50px;
+}
+p{
+	font-size: 16px;
+}
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+    }
+}
+.about{
+	width: 100%;
+	margin-top: 60px;
+}
+.about_pic img{
+	width: 100%;
+}
+.about_pic{
+	color: gray;
+}
+.menu_content img{
+    width: 100%;
+}
+.menu_content {
+	padding-right: 15px;
+}
+.menu_content2{
+	padding-right: 15px;
+}
+.article-content-wrap{
+	position: absolute;
+    top: 30px;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+}
+
+.btnAbout{
+	background: transparent;
+	padding: 10px 30px !important;
+    border: 1px solid #ffffff !important;
+    font-family: "typo_quik_demobold";
+    color: #ffffff;
+    font-size: 10pt !important;
+	letter-spacing: 1px !important;
+	text-decoration: none!important;
+}
+
+.tp-parallax-wrap{
+	position: absolute; 
+	display: block; 
+	visibility: visible;
+	width: 100%;
+	top:5%;
+	z-index: 1;
+}
+.header1{
+	margin-top: 10%;
+	margin-bottom: 35%;
+}
+.text-center{
+	transition: none 0s ease 0s; 
+	text-align: inherit; 
+	line-height: 17px; 
+	border-width: 0px; 
+	margin: 0px; 
+	padding: 0px; 
+	letter-spacing: 0px; 
+	font-weight: 400; 
+	font-size: 9px;
+}
+.link_content_1{
+	background-color: pink;
+	width: 100%;
+	min-height: 500px;
+	height: 100%;
+}
+.icon{
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10%;
+	justify-content: space-around;
+}
+.video{
+	width: 100%;
+	height: 100%;
+}
+.col-md-4{
+	background-color: #ffc0cb;
+}
+.inner{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	height: inherit;
+	margin-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 7;
+}
+.buttonfind{
+	margin-top: 10%;
+}
+.btn2{
+	background: transparent;
+	padding: 10px 30px !important;
+    border: 1px solid #ffffff !important;
+    font-family: "typo_quik_demobold";
+	color: #ffffff;
+    font-size: 10pt !important;
+	letter-spacing: 1px !important;
+	text-decoration: none;
+}
+.footer{
+	width: 100%;	
+	background-color: rgba(173, 136, 142, 0.685);
+}
+.footer p{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: inherit;
+}
